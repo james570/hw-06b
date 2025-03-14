@@ -24,10 +24,10 @@ class TestTriangles(unittest.TestCase):
 
     # Isosceles triangle
     def testIsoscelesTriangleA(self):
-        self.assertEqual(classifyTriangle(5,5,8),'Isoceles','5,5,8 should be isosceles')
+        self.assertEqual(classifyTriangle(5,5,8),'Isosceles','5,5,8 should be isosceles')
 
     def testIsoscelesTriangleB(self):
-        self.assertEqual(classifyTriangle(8,5,5),'Isoceles','8,5,5 should be isosceles')
+        self.assertEqual(classifyTriangle(8,5,5),'Isosceles','8,5,5 should be isosceles')
 
     # Illegal triangle
     def testNotATriangleA(self):
